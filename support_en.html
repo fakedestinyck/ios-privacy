@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Fancam Generator</title>
+<meta name="description" content="Help and contact for Fancam Generator.">
+<style>
+  :root{
+    --stage:#100D18;
+    --beam:#EFEAF7;
+    --text:#D9D3E6;
+    --dim:#8E86A3;
+    --accent:#FF2E6B;
+    --rule:#2B2340;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--stage);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    font-size:17px;
+    line-height:1.68;
+  }
+  .stagelight{
+    position:fixed;
+    inset:0 0 auto 0;
+    height:70vh;
+    background:radial-gradient(60% 100% at 50% -10%, rgba(255,46,107,.22), rgba(255,46,107,0) 70%);
+    pointer-events:none;
+    z-index:0;
+  }
+  .wrap{
+    position:relative;
+    z-index:1;
+    max-width:620px;
+    margin:0 auto;
+    padding:14vh 24px 18vh;
+  }
+  .eyebrow{color:var(--dim);font-size:15px;margin:0 0 2.4rem}
+  .eyebrow a{color:var(--dim);text-decoration:underline}
+  .eyebrow a:hover{color:var(--beam)}
+  h1{
+    color:var(--beam);
+    font-size:clamp(2.1rem,7vw,3.1rem);
+    line-height:1.12;
+    font-weight:700;
+    letter-spacing:-.02em;
+    margin:0 0 1.7rem;
+    padding-left:1.1rem;
+    border-left:3px solid var(--accent);
+  }
+  .lede{color:var(--beam);font-size:1.18rem;line-height:1.6;margin:0 0 3.6rem;max-width:38ch}
+  h2{color:var(--beam);font-size:1.1rem;font-weight:600;margin:2.8rem 0 .6rem}
+  p{margin:0 0 1.1rem;max-width:66ch}
+  a{color:var(--accent);text-underline-offset:4px}
+  a:hover{color:var(--beam)}
+  a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+  footer{
+    color:var(--dim);
+    font-size:14px;
+    margin-top:5rem;
+    padding-top:1.4rem;
+    border-top:1px solid var(--rule);
+  }
+  @media (max-width:520px){
+    body{font-size:16px}
+    .wrap{padding:9vh 20px 12vh}
+  }
+</style>
+</head>
+<body>
+<div class="stagelight"></div>
+<main class="wrap">
+
+  <p class="eyebrow">Fancam Generator · Support · <a href="support.html">中文</a></p>
+
+  <h1>Need a hand?</h1>
+
+  <p class="lede">Email <a href="mailto:you@example.com">you@example.com</a> and you'll get a reply within two business days.</p>
+
+  <h2>Before you write in</h2>
+  <p>Including your iOS version, device model, and the app version (shown at the bottom of Settings inside the app) makes it much faster to work out what happened.</p>
+
+  <h2>The app can't open my video</h2>
+  <p>Very long recordings and unusual codecs can take a while or fail outright. Try a shorter clip first to see whether the file itself is the problem.</p>
+
+  <h2>Export failed partway through</h2>
+  <p>Exporting needs free storage roughly the size of the finished video. Check available space, then try again with the app in the foreground.</p>
+
+  <h2>Where do my files go?</h2>
+  <p>Finished videos are saved to your photo library. Nothing is uploaded — see the <a href="privacy-policy-en.html">privacy policy</a>.</p>
+
+  <footer>Last updated 11 September 2026</footer>
+
+</main>
+</body>
+</html>
